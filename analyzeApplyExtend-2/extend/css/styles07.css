@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name: 
+Author: Shane Mack
+Date: 4/21/2024
+File Name: styles07.css
 */
 
 /* CSS Reset */
@@ -13,22 +13,22 @@ body, header, main, footer, h1, h3, section, article {
 
 /* Style rule for body */
 body {
-	background-color: #dfe7c4;
+    background-color: #dfe7c4;
 }
 
 /* Style rule for header */
 header {
-	font-family: Verdana, Arial, sans-serif;
-	margin-top: 0.2em;
-	background-color: #628c45;
-	color: #dfe7c4;
-	padding: 2%;
+    font-family: Verdana, Arial, sans-serif;
+    margin-top: 0.2em;
+    background-color: #628c45;
+    color: #dfe7c4;
+    padding: 2%;
     text-align: center;
 }
 
 /* Style rules for main content  */
 main {
-	background-color: #fff;
+    background-color: #fff;
 }
 
 aside {
@@ -36,6 +36,19 @@ aside {
 }
 
 footer {
-	font-size: .70em;
-	text-align: center;
+    font-size: .70em;
+    text-align: center;
+}
+
+/* Style rules for the three-column layout */
+section {
+    width: 33.33%;
+    float: left;
+    padding: 0 1%;
+    box-sizing: border-box;
+}
+
+article {
+    padding: 0 1%;
+    box-sizing: border-box;
 }
